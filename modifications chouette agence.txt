@@ -1,0 +1,20 @@
+	dossier images
+
+alleger les images
+reformater les image bmp into png ou jpeg
+redimensionner les images
+mettre du texte brut en lieu et place du texte incruster dans les images
+
+	dossier css
+
+minifier les fichiers
+gzip les fichiers
+
+	dossier js
+
+minifier les fichiers
+gzip les fichiers
+
+	html
+
+renommer le document 2 par un keyword
