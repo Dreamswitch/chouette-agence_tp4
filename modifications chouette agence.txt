@@ -16,5 +16,36 @@ minifier les fichiers
 gzip les fichiers
 
 	html
-
+	header
 renommer le document 2 par un keyword
+pas de description
+pas de title
+black hat dans les keywords
+pas de gtag
+pas de meta robots
+vitesse du js non debloqué via async
+
+	main
+
+mauvaise semantique (div partout)
+pas de balises strong sur les keywords
+h2 beaucoup trop long
+presence de balise de style dans le html
+	bloc 1
+bouton custom sans description du linking
+le texte alternatif du logo ne decrit pas l'image
+	bloc 2
+le texte alternatif des images ne decrit pas l'image
+les h3 sont des h2
+pas de balise strong dans les paragraphes
+	bloc 3
+mauvais h2
+pas de mise en valeur des keywords
+linking sans description
+	footer
+
+presence de mega annuaires dans le footer a supprimer
+
+	accessibilité
+
+mauvais contraste entre la font et le background
