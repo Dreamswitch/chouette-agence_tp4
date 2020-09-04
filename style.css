@@ -337,6 +337,10 @@ a:hover {
     background: transparent;
 }
 
+.nav > .navbar-link--color a{
+    color: #F3976C!important;
+}
+
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
