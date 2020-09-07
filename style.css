@@ -338,7 +338,7 @@ a:hover {
 }
 
 .nav > .navbar-link--color a{
-    color: #F3976C!important;
+    color: #CD4B0E!important;
 }
 
 .navbar-toggle {
@@ -655,7 +655,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #404040!important;
     letter-spacing: 0.2rem;
 }
 
@@ -704,6 +704,9 @@ p {
     font-weight: 700;
 }
 
+.citation-author{
+    color: #757575;
+}
 .social {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -793,7 +796,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #141414!important;
+    color: #404040!important;
     text-shadow: 0 0 3px #8F6C5C;
 }
 
