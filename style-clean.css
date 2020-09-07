@@ -656,7 +656,6 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
-    letter-spacing: 0.2rem;
 }
 
 .container {
@@ -682,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -705,7 +704,7 @@ p {
 }
 
 .social {
-    max-width: 800px;
+    max-width: 400px;
     margin: auto auto auto auto;
 }
 
@@ -715,7 +714,7 @@ h2 {
 }
 
 h3 {
-    font-size: 17px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -762,7 +761,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(41, 41, 41, 0.7);
+    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -779,8 +778,8 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-black {
-    background-color: rgba(41, 41, 41, 0.7);
+.bgc-dark-slate-blue {
+    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
@@ -792,14 +791,15 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #141414!important;
+    background: radial-gradient(ellipse at top, #F3986C, transparent),
+    radial-gradient(farthest-side at 10px 200px, #8F6C5C 50%, #A85E39 80%);
+    color: #424242!important;
     text-shadow: 0 0 3px #8F6C5C;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #141414!important;
+    color: #424242!important;
 }
 
 .ltc-white {
@@ -837,14 +837,6 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/background-presentation.jpg");
-}
-
-.col-sm-4 {
-    line-height: 2em;
-}
-.col-sm-12 p, .col-sm-4 {
-    font-size: 19px;
-    color: rgb(0,0,0);
 }
 
 @media (max-width: 1024px) {
