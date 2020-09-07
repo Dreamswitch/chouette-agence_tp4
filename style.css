@@ -743,6 +743,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: #424242;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -759,6 +763,10 @@ h4 {
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
+}
+
+.citation > .citation-author{
+    color: #757575;
 }
 
 .bold-link {
@@ -783,13 +791,15 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: radial-gradient(ellipse at top, #F3986C, transparent),
+    radial-gradient(farthest-side at 10px 200px, #8F6C5C 50%, #A85E39 80%);
+    color: #424242!important;
+    text-shadow: 0 0 3px #8F6C5C;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #424242!important;
 }
 
 .ltc-white {
