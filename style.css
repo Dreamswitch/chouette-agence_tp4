@@ -90,6 +90,7 @@ a:hover {
     right: 0;
 }
 
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -337,8 +338,16 @@ a:hover {
     background: transparent;
 }
 
+.nav > .navbar-link a:focus,.nav > .navbar-link a:hover{
+    color: #404040!important;
+    background-color: #f3976cc2;
+}
 .nav > .navbar-link--color a{
     color: #CD4B0E!important;
+}
+.nav > .navbar-link--color a:focus, .nav > .navbar-link--color a:hover{
+    background-color: #f3976cc2;
+    color: #404040!important;
 }
 
 .navbar-toggle {
@@ -365,6 +374,11 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+.navbar-brand:focus,.navbar-brand:hover{
+    background-color: #f3976cc2;
+}
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -538,7 +552,7 @@ a[data-lightbox] {
     text-align: center;
 }
 
-a[data-lightbox]:hover::before {
+a[data-lightbox]:hover::before, a[data-lightbox]:focus::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
@@ -709,6 +723,9 @@ p {
     max-width: 800px;
     margin: auto auto auto auto;
 }
+.social:hover, .social:focus{
+    color: #FFe4c4!important;
+}
 
 h2 {
     font-size: 20px;
@@ -791,26 +808,25 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
+.tc--main-color {
     color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #404040!important;
-    text-shadow: 0 0 3px #8F6C5C;
 }
 
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #141414!important;
+.btn-atomic-tangerine:hover, .btn-atomic-tangerine:focus {
+    background: #FFF!important;
+    color: #CD4B0E!important;
 }
 
 .ltc-white {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
+.ltc-white:hover,.ltc-white:focus {
     color: #cccccc!important;
 }
 
@@ -846,10 +862,7 @@ h4 {
 .col-sm-4 {
     line-height: 2em;
 }
-.col-sm-12 p, .col-sm-4 {
-    font-size: 19px;
-    color: rgb(0,0,0);
-}
+
 
 @media (max-width: 1024px) {
     .bloc {
