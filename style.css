@@ -676,11 +676,11 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 20px;
 }
 
 .hero-bloc-text-sub {
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .statement-bloc-text {
@@ -728,7 +728,6 @@ p {
 }
 
 h2 {
-    font-size: 20px;
     line-height: 1.4em;
 }
 
