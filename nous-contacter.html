@@ -17,7 +17,41 @@
 	<script src="./js/blocs.js" defer></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/formHandler.js" defer></script>
-    <title>La chouette agence, formulaire de contact</title>
+    <title>La chouette agence, nous contacter</title>
+
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "LocalBusiness",
+			"name": "La chouette agence",
+			"description": "Agence digitale web design",
+			"slogan": "vivez le web autrement",
+			"openingHours": "Mo-Fr 9:00-18:30",
+			"telephone": "+33235784589",
+			"email": "contact@chouette-agence.com",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Lyon",
+				"postalCode": "69001",
+				"streetAddress": "2 place Sathonay"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": 45.769621,
+				"longitude": 4.830189
+			  },
+			"image": "https://dreamswitch.github.io/chouette-agence_tp4/img/logo.png",
+			"review": [
+				{
+					"@type": "Review",
+					"author": "Maxime Guibard",
+					"datePublished": "2020-06-26",
+					"description": "La chouette agence est une excellente agence web ! Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon.",
+					"name": "A vos fourchettes"
+				}
+			]
+		}
+	</script>
 
     
 <!-- Analytics -->
@@ -58,7 +92,7 @@
 					<div class="row bgc-dark-slate-black">
 						<div class="col-sm-12">
 							<h1 class="text-center tc--main-color">
-								Formulaire de contact
+								Vous souhaitez nous contacter ?
 							</h1>
 							<p class="text-center mg-lg white tight-width-whitespace hero-bloc-text">
 								Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
@@ -72,12 +106,10 @@
 
 			<!-- bloc-2 -->
 			<section class="bloc bgc-white l-bloc" id="bloc-7">
-				<h2 class="text-center">Comment nous contacter ?</h2>
-				
 				<div class="container bloc-lg">
 					<div class="row">
-						<div class="col-sm-6">
-							<p class="text-center bgc-dark-slate-black white mg-md">Via le formulaire :</p>
+						<section class="col-sm-6">
+							<h2 class="text-center bgc-dark-slate-black white mg-md">Via le formulaire :</h2>
 							<form id="form_1" method="POST" name="myemailform" action="includes/form_1.php" >
 								<div class="form-group">
 									<label for="name">
@@ -106,14 +138,14 @@
 									Envoyer
 								</button>
 							</form>
-						</div>
-						<div class="col-sm-6">
-							<p class="text-center bgc-dark-slate-black white mg-md">Directement dans notre agence :</p>
+						</section>
+						<section class="col-sm-6">
+							<h2 class="text-center bgc-dark-slate-black white mg-md">Directement dans notre agence :</h2>
 							<p class="text-center">
 								<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 							</p>
 							<iframe class="center-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0831373652118!2d4.827978616080831!3d45.769524079105786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Place%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1599646910094!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" title="adresse de la chouette agence sur une carte interractive google" aria-label="adresse de la chouette agence sur une carte interractive google" tabindex="0"></iframe>
-						</div>
+						</section>
 					</div>
 				</div>
 			</section>
